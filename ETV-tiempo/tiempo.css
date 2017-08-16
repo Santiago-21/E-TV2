@@ -1,0 +1,19 @@
+.card{
+  border: solid black 2px;
+  height: 250px;
+  border-radius: 20px;
+  align-items: center;
+}
+p{
+  text-align: center;
+}
+#parrafo{
+  display: flex;
+  text-align: center;
+  align-items: center;
+
+
+}
+.btn-primary{
+  margin-left: 50px
+}

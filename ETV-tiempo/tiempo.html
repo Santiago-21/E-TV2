@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>E-TV</title>
+    <link rel="stylesheet" type="text/css" href="tiempo.css">
+    <script type="text/javascript" src="tiempo.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="col-sm-12">
+        <h2>Dinos cuánto tiempo tienes libre y nosotros te recomendaremos algo</h2>
+      </div>
+      <div class="col-sm-12" id= "parrafo">
+        <p>Aquí están las opciones que te damos</p>
+      </div>
+        <div class="dropdown  col-sm-6" id= "timer">
+          <select>
+            <optgroup label="Películas">
+              <option value="60">0-1h</option>
+              <option value="120">1h-2h</option>
+              <option value="180">2h-3h</option>
+              <option value="240">3h-4h</option>
+              <option value="320">Más de 4h</option>
+            </optgroup>
+            <optgroup label="Series">
+              <option value="60">0-1h</option>
+              <option value="120">1h-2h</option>
+              <option value="180">2h-3h</option>
+              <option value="240">3h-4h</option>
+              <option value="320">Más de 4h</option>
+            </optgroup>
+          </select>
+      </div>
+  <button type="button" class="btn btn-dark col-sm-6" id="activa" onclick="busca()">
+    Dime que ver
+  </button>
+<div id="recomendaciones">
+
+
+
+    </div>
+</div>
+</div>
+
+
+  </body>
+</html>
